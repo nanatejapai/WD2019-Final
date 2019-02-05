@@ -1,0 +1,160 @@
+ html, body, div,
+      h1, h2, h3, h4, h5, h6, p,
+      a, article, canvas, footer, header, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      
+      html {
+          background-color: white;
+      }
+      body {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 1.4em;
+        width: 100%;
+        margin: 0 auto;
+      }
+      header, section {
+        padding: 20px;
+        /* tell the headers and the sections to be sticky */
+        position: sticky;
+        /* make sure it works in safari browsers as well */
+        position: -webkit-sitcky;
+        /* tell it where to stick */
+        top: 0;
+        height: 100vh;
+      }
+      h1 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+        line-height: 1em;
+        text-align: center;
+      }
+      h2 {
+        font-size: 1.4em;
+        text-align: center;
+      }
+
+      h3{
+        font-size: 0.8em;
+      }
+
+      p {
+        font-size: 0.6em;
+        line-height: 1.4em;
+      }
+      img {
+        width: 70%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+      }
+
+      header h1 {
+      color:#f5adcd;
+      }
+
+      #pointer {
+        width: 200px;
+/*    position: fixed;*/
+/*    transform-origin: center 110px;*/
+/*    display: block;*/
+    margin: 0 auto;
+    touch-action: none;
+    z-index: 10;
+      }
+/*
+      .photo{
+        z-index: -10
+        width:100px;
+        height: 100px;
+      }*/
+
+      .poster{
+        width: 35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+      }
+
+
+      .intro{
+        width: 610px;
+        margin-left: auto;
+        margin-right: auto;
+ /*       padding-top: 25px;*/
+/*        padding-bottom: 25px;*/
+        text-align:center;
+        color:#f5adcd;
+      }
+      header {
+        /*background-color: #f5adcd;*/
+        background-color: black;
+      }
+
+      .sketch{
+        width:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+      
+      .sect-1 {
+        background-color: yellow;
+        /*background-color: #748839;*/
+      }
+      .sect-2 {
+        background-color: #839697;
+      }
+      .sect-3 {
+        background-color: #cccccc;
+      }
+
+      .sect-4 {
+        background-color: #1d76ba;
+      }
+
+      .sect-5 {
+        background-color: #d3d3d3;
+
+      }
+
+      .sect-6 {
+        background-color: #d8a4a7;
+
+      }
+
+      .grid{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.7fr 0.7fr;
+        width: 90%;
+        margin: 0 auto;
+        grid-column-gap:1em;
+        grid-row-gap:1em;
+      }
+
+
+
+      .read {
+        text-align: left;
+      }
