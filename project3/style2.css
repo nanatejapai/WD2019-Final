@@ -1,0 +1,36 @@
+.product-hero{
+  height: 100vh;
+  position: relative;
+}
+  .product-hero-image{
+    position: absolute;
+    height: 83%;
+    margin: auto;
+    top 3%
+    left 50%
+    transform translateX(-50%)
+    opacity 1
+    display block
+{
+    &.active
+      opacity 1
+
+  .title-container
+    max-width $max_width
+    margin 0 auto
+    height 100%
+    position relative
+
+  h1
+    z-index 1000
+    position absolute
+    bottom 30%
+    left $padding
+    width 40%
+    margin 0 auto
+    text-align left
+    font-size 3.6rem
+    text-transform uppercase
+    color $main_text_colour
+    transition transform 2000ms
+    transform translate3d(0,0,0)
